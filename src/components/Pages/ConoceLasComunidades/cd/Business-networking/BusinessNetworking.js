@@ -26,7 +26,10 @@ import {
 } from "../Business-networking/BusinessNetworking.css.js";
 import { Link } from "react-router-dom";
 import { ROUTES } from "../../../../../routes/routes";
-
+/**
+ * @brief Da acceso a las redes sociales
+ * @returns 
+ */
 function BusinessNetworking() {
   useEffect(() => {
     window.scrollTo({ top: 0, left: 0, behavior: "smooth" });

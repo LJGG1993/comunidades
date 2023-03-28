@@ -1,6 +1,9 @@
 import React from 'react';
 import { Container, Title, ContainerGrid, ContainerLeft, Text, SocialMediaContainer, ButtonInstagram, ButtonLinkedin, ContainerRight, SubTitle, ButtonSend, ButtonRestore, SliderContainer, Content } from './Contactanos.css.js';
-
+/**
+ * @breaf Te da acceso a ponerte en contacto
+ * @returns 
+ */
 function Contactanos() { 
     return (
         <>

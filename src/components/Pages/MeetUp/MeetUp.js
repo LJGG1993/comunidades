@@ -9,7 +9,10 @@ import {
   Button,
   Image,
 } from "./MeetUp.css.js";
-
+/**
+ * @breaf Contenido de la pagina Meetup
+ * @returns 
+ */
 function MeetUp() {
   return (
     <div>

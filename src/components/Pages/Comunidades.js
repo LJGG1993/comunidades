@@ -1,5 +1,8 @@
 import React from 'react';
-
+/**
+ * @breaf Muestra las comunidades
+ * @returns 
+ */
 function Comunidades() {
     return(
         <div className='d-flex justify-content-center'> 

@@ -15,7 +15,10 @@ import {
   MapParagraph,
   MapIframe,
 } from "./Ecosystem.css.js";
-
+/**
+ * @breaf Contenido de la pagina
+ * @returns 
+ */
 function Ecosystem() {
   return (
     <div>

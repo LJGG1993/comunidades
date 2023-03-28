@@ -1,7 +1,10 @@
 import React from 'react';
 import './Text.css.js';
 import { Title, Container } from './Text.css.js';
-
+/**
+ *@breaf Muestra un texto (titulo) 
+ * @returns 
+ */
 function Text() {
     return(
         <Container>

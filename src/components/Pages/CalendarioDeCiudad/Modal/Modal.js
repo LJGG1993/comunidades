@@ -1,7 +1,11 @@
 import React from "react";
 import {Container, ContainerModal, TitleModal, ButtonModal} from './Modal.css.js';     
 
-
+/**
+ * @brief  Da el estado de la ubicacion, fecha y hora.
+ * @param {*} param0 
+ * @returns 
+ */
 function Modal({estado, cambiarEstado, data}) {
 
     const options = {
@@ -10,7 +14,11 @@ function Modal({estado, cambiarEstado, data}) {
         hour12: true,
         timeZone: 'America/Mexico_City' 
       };
-
+/**
+ * @brief Conecta a la base de datos
+ * @param {*} date 
+ * @returns 
+ */
     function dateFormat(date){
         let newDate = new Date(date).toLocaleDateString('esp-mx',options);
        return newDate;

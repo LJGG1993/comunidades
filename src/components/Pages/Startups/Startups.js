@@ -2,10 +2,15 @@ import React from 'react';
 import { Container, Title, Subtitle, Button, Startup, Content, Number, Text } from '../Startups/Startups.css.js';
 import { useNavigate } from "react-router-dom";
 
-
+/**
+ * @breaf Permite hacer redirecciones en el programa
+ * @returns 
+ */
 function Startups() {
     const navigate = useNavigate();
-
+/**
+ * @breaf Da coneccion a una ruta
+ */
     function toAddStart() {
         navigate("/startups/addstartup");
       }

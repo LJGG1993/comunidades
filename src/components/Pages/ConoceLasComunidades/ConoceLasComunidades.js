@@ -4,7 +4,10 @@
     import { ROUTES } from "../../../routes/routes"
 
 
-
+/**
+ * @breaf Te da acceso a las secciones para conocer mas del tema
+ * @returns 
+ */
     function ConoceLasComunidades() {  
 
         return (    

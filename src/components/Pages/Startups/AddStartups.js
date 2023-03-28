@@ -1,7 +1,10 @@
 import React from 'react';
 import { Main, Title, Subtitle, Form, Startup1, AddTitle, AddSubtitle, Content, Container, BoxText, Send, StartupButton, Boxshort, Iconemail, Iconupload, Iconprice, Options, Paragraph} from './AddStartups.css.js';
 
-
+/**
+ * @breaf Muestra el contenido de la pagina de Startups
+ * @returns 
+ */
 function AddStartup() {
     return(
         <Main>

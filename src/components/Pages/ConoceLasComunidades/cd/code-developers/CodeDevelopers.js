@@ -18,7 +18,10 @@ import {
 } from "./CodeDevelopers.css.js";
 import { Link } from "react-router-dom";
 import { ROUTES } from "../../../../../routes/routes.js";
-
+/**
+ * @breaf Da acceso a a las redes sociales o otros sitios
+ * @returns 
+ */
 function CodeDevelopers() {
   useEffect(() => {
     window.scrollTo({ top: 0, left: 0, behavior: "smooth" });

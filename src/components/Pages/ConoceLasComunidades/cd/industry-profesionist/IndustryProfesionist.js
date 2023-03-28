@@ -15,7 +15,10 @@ import {
 } from "./IndustryProfesionist.css.js";
 import { Link } from "react-router-dom";
 import { ROUTES } from "../../../../../routes/routes.js";
-
+/**
+ * @breaf Da acceso a las redes sociales o otros sitios
+ * @returns 
+ */
 function IndustryProfesionist() {
   useEffect(() => {
     window.scrollTo({ top: 0, left: 0, behavior: "smooth" });

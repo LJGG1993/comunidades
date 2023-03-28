@@ -20,7 +20,10 @@ import {
   getLocalStorageItem
 } from "../../../helpers/localStorage.helpers";
 
-
+/**
+ * @brief Muestra el estado de los Eventos
+ * @returns 
+ */
 function Eventos() {
   const navigate = useNavigate();
   const [estadoModal, cambiarEstadoModal] = useState(false);
@@ -64,7 +67,11 @@ function Eventos() {
       setLoad(false);
     }
   };
-
+/**
+ * @brief Conecta con la base de datos
+ * @param {*} date 
+ * @returns 
+ */
   function dateFormat(date) {
     let newDate = new Date(date).toLocaleDateString("esp-mx", options);
     return newDate;

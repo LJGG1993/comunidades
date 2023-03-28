@@ -30,7 +30,10 @@ import {
   SliderContainer,
   SliderContent,
 } from "./Theteam.css";
-
+/**
+ * @breaf Nos da el contenideo de la pagina del Theteam
+ * @returns 
+ */
 function Theteam() {
   return (
     <>

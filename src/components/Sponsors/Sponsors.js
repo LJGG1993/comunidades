@@ -1,7 +1,10 @@
 import React from "react";
 import { SponsorsContainer, Img, Title } from "./Sponsors.css.js";
 import "./Sponsors.css.js";
-
+/**
+ * @breaf Rutas de imagenes
+ * @returns 
+ */
 function Sponsors() {
   return (
     <SponsorsContainer >
